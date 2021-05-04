@@ -116,11 +116,11 @@
           "knobs" : {
             "base: priority" : 5,
             "shared background color" : {
-              "Red Component" : 0.15686274509803921,
+              "Red Component" : 0.15686275064945221,
               "Color Space" : "sRGB",
-              "Blue Component" : 0.15686274509803921,
+              "Blue Component" : 0.15686275064945221,
               "Alpha Component" : 1,
-              "Green Component" : 0.15686274509803921
+              "Green Component" : 0.15686275064945221
             },
             "shared text color" : {
               "Red Component" : 0.84313726425170898,
@@ -552,7 +552,7 @@
   "Automatically Log" : false,
   "Smart Cursor Color" : false,
   "Ambiguous Double Width" : false,
-  "Blur Radius" : 0.10000000000000001,
+  "Blur Radius" : 9.0086472874365491,
   "Background Image Mode" : 0,
   "Ansi 0 Color" : {
     "Red Component" : 0.11759927868843079,
@@ -562,7 +562,7 @@
     "Green Component" : 0.11759573966264725
   },
   "AWDS Pane Directory" : "",
-  "Blur" : false,
+  "Blur" : true,
   "Normal Font" : "FiraCodeNerdFontCompleteM-Regular 18",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
@@ -596,7 +596,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.55607825517654419
   },
-  "Transparency" : 0.066172271573604197,
+  "Transparency" : 0.16964229060913708,
   "Initial Text" : "tmux",
   "Background Color" : {
     "Red Component" : 0.11759927868843079,
