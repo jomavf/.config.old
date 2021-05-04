@@ -1,3 +1,9 @@
 .DS_Store
 .zcompdump
 AppSupport
+.iterm2
+.iterm2_shell_integration.zsh
+.zsh_history
+.zcompdump
+.zcompcache
+configstore
