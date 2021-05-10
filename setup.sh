@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# verbose mode in bash
+set -v
+
 ## Instructions
 # 1. Install fonts
 
@@ -8,6 +11,7 @@
 ## HOMEBREW
 
 # Requirements and installation
+
 xcode-select --install || curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
 ## Alfred 4
