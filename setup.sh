@@ -8,7 +8,7 @@
 ## HOMEBREW
 
 # Requirements and installation
-xcode-select --install
+xcode-select --install 2>&1 | grep -v "already installed and latest version"
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
 ## Alfred 4
