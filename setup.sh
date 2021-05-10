@@ -34,8 +34,8 @@ brew install iterm2
 brew install --HEAD neovim
 
 ## brew install nvm and NVM setup
-brew install nvm
 mkdir $HOME/.nvm
+brew install nvm
 nvm install node
 nvm install --lts
 nvm use node
