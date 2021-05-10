@@ -10,11 +10,9 @@ set -v
 
 ## HOMEBREW
 
-# Requirements and installation
+# brew installation
 
-xcode-select --install || { 
-    curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh 
-}
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh 
 
 ## Alfred 4
 brew install alfred
