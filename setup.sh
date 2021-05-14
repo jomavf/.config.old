@@ -65,4 +65,10 @@ EOF
 
 # fast-syntax-highlighting plugin installation
 mkdir -p $HOME/githubPlugins
-git clone https://github.com/zdharma/fast-syntax-highlighting $HOME/githubPlugins
+git clone https://github.com/zdharma/fast-syntax-highlighting $HOME/githubPlugins/fast-syntax-highlighting
+
+# FZF
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install

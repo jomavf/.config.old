@@ -37,3 +37,5 @@ source $HOME/githubPlugins/fast-syntax-highlighting/fast-syntax-highlighting.plu
 
 test -e "${ZDOTDIR}/.iterm2_shell_integration.zsh" && source "${ZDOTDIR}/.iterm2_shell_integration.zsh"
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
