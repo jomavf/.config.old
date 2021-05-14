@@ -33,6 +33,9 @@ brew install iterm2
 ## NVIM 5
 brew install --HEAD neovim
 
+## TMUX
+brew install tmux
+
 ## brew install nvm and NVM setup
 mkdir $HOME/.nvm
 brew install nvm
@@ -59,3 +62,7 @@ cat << EOF > .zprofile
     alias vim="nvim"
 EOF
 
+
+# fast-syntax-highlighting plugin installation
+mkdir -p $HOME/githubPlugins
+git clone https://github.com/zdharma/fast-syntax-highlighting $HOME/githubPlugins
