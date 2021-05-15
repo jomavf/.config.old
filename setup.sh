@@ -40,6 +40,8 @@ brew install tmux
 mkdir $HOME/.nvm
 brew install nvm
 
+source $HOME/.config/zsh/.zshenv
+
 nvm install node
 nvm install --lts
 nvm use node
