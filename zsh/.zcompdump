@@ -997,6 +997,7 @@ _comps=(
 'ntalk' '_other_accounts'
 'numfmt' '_numfmt'
 'nvim' '_vim'
+'nvm' '_bash_complete -o default -F __nvm'
 'nvram' '_nvram'
 'objdump' '_objdump'
 'od' '_od'

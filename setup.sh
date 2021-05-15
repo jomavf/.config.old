@@ -39,18 +39,12 @@ brew install tmux
 ## brew install nvm and NVM setup
 mkdir $HOME/.nvm
 brew install nvm
+
 nvm install node
 nvm install --lts
 nvm use node
 nvm run node --version
-cd $HOME
-touch .zshenv
-cat << EOF > .zshenv
-    export NVM_DIR="$HOME/.nvm"
-    NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
-    [ -s "$NVM_HOMEBREW" ] && \. "$NVM_HOMEBREW"
-    [ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g`
-EOF
+
 ## Creation of files
 
 # .zprofile
