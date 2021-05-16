@@ -36,6 +36,9 @@ brew install --HEAD neovim
 ## TMUX
 brew install tmux
 
+## JQ for json formatting 
+brew install jq
+
 ## brew install nvm and NVM setup
 mkdir $HOME/.nvm
 brew install nvm
